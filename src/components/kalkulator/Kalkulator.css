@@ -1,0 +1,45 @@
+.kalkulator {
+  width: 30%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btnCard {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnCard button {
+  width: 90px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+   border-radius: 10px;
+   border: 1px solid rgb(70, 66, 66);
+}
+
+input {
+  font-size: 20px;
+  height: 8vh;
+  color: rgb(94, 26, 26141, 110, 110);
+  text-align: end;
+  border:1px solid black;
+}
+
+.btnCard .teng {
+  width: 197px;
+   transition: 1s ease;
+}
+.btnCard .teng:active{
+   transform: scale(0.8);
+}
+
+.btnCard .amal {
+  background-color: rgb(10, 246, 104);
+}
